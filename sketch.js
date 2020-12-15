@@ -142,11 +142,12 @@ function draw() {
    }
 }
 function keyPressed(){
-  if (keyCode === 32){
-  
-  if (gameState!="end"){
+ if (keyCode === 32){
+
+ 
+if (gameState!="end"){
     turn++;
     particle = new Particle(mouseX,10,10,10);
   }
-  }
+ }
 }

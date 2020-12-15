@@ -141,9 +141,12 @@ function draw() {
      divisions[k].display();
    }
 }
-function mousePressed(){
+function keyPressed(){
+  if (keyCode === 32){
+  
   if (gameState!="end"){
     turn++;
     particle = new Particle(mouseX,10,10,10);
+  }
   }
 }
